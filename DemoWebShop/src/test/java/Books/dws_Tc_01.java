@@ -31,7 +31,7 @@ public class dws_Tc_01 extends Baseclass {
     Object pro = wutil.multi(driver,"//div[@class='product-item']");
     double lowest=0.0;
     for(WebElement op:pro) {
-    	Object price = wutil.single(driver,"//span[@class='priceactual-price']").getText().trim();
+    	Object1 price = wutil.single(driver,"//span[@class='priceactual-price']").getText().trim();
     	Double.parseDouble((String) price);
     	if(lowest<=pri) {
     		lowest = pri;
