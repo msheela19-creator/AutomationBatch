@@ -15,7 +15,7 @@ public class IbmTest {
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(20));
 		
 		driver.get("https://www.ibm.com/in-en");
-		Reporter.log("Ibm is launched", true);
+		Reporter.log("Ibm is launched exactly", true);
 	}
 
 }
